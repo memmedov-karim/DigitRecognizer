@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.2"> </script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+    <meta charset="UTF-8">
+    <title>Mnist-Digit recognizer</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <h1 class="drawwText">İstədiyiniz rəqəmi çəkin</h1>
+    <canvas  id="canvas"></canvas>
+
+    
+    <div class="results-container">
+
+        <input class="button" type="button" id="btn" value="TAP"/>
+        <input class="button" type="button" id="clr" value="TƏMİZLƏ"/>
+
+        <table>
+            <tr>
+                <th class="result">Guess: 0 Predict: 0% </th>
+                <th class="result">Guess: 1 Predict: 0%</th>
+                <th class="result">Guess: 2 Predict: 0%</th>
+                <th class="result">Guess: 3 Predict: 0%</th>
+                <th class="result">Guess: 4 Predict: 0%</th>
+                <th class="result">Guess: 5 Predict: 0%</th>
+                <th class="result">Guess: 6 Predict: 0%</th>
+                <th class="result">Guess: 7 Predict: 0%</th>
+                <th class="result">Guess: 8 Predict: 0%</th>
+                <th class="result">Guess: 9 Predict: 0%</th>
+            </tr>
+
+        </table>
+
+    </div>
+    
+
+
+
+</div>
+
+    <script src="script.js"></script>
+    <script src="drawing.js"></script>
+
+</body>
+</html>
